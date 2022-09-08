@@ -1,14 +1,14 @@
-def iseven(num):
-    flg=0
-    if(num%2==0):
-        flg=1
-    return flg
+'''
+        PRINTING Spiral number pattern (for n=4)
+        1  2  3  4
+       12 13 14  5
+       11 16 15  6
+       10  9  8  7
 
+'''
 n=int(input())
 l=[[0 for i in range(n)] for i in range(n)]
-r=0
-x=1
-a=1
+r,x=0,1
 while(True):
     for i in range(r,n-r):
         l[r][i]=x
@@ -27,7 +27,7 @@ while(True):
         x+=1
     r+=1
     if r==round(n/2):
-        if iseven(round(n/2)):
+        if (round(n/2))%2==0:
             l[m][r]=x
         break
 for i in l:
