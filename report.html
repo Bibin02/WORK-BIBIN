@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <title>RETURN REPORT</title>
+  </head>
+
+  <body style="
+  margin-top: 200px;
+">
+        <script>
+            function register()
+	{
+		if(document.getElementById("htpt").value=='' || document.getElementById("dte").value==''
+        || document.getElementById("cno").value=='')
+		{
+			alert("Please Enter all the Details.");
+        }
+		else
+		{
+	alert('Thank You for Reporting your return status. Have a nice day !');
+			}
+	}
+        </script>
+	<!-- Main div code -->
+	<div id="main">
+	<div class="h-tag">
+	<center><h2>STATUS OF RETURN</h2></center>
+	</div>
+	<!-- Login box -->
+	<div class="login">
+	<table cellspacing="2" align="center" cellpadding="8" border="0">
+        <tr>
+            <td>Number of hotspots visited :</td>
+            <td><input type="number" placeholder="" id="htpt" class="tb" /></td>
+            </tr>
+    <tr>
+        <td>Returned Date and time:</td>
+        <td><input type="datetime-local" id="dte" class="tb" /></td>
+    </tr>
+    <td>Contact number :</td>
+    <td><input type="number" id="cno" class="tb" /></td>
+    </tr>
+    <td>Feedback :</td>
+    <td><input type="text" id="fb" class="tb" /></td>
+    </tr>
+        
+    <td>
+	<input type="submit" value="SUBMIT" class="btn" onClick="register()" /></td>
+	</tr>
+	</table>
+	</div>
+  	 <!-- login box div ending here.. -->
+	</div>
+	<!-- Main div ending here... -->
+    
+  </body>
+  </html>
+  
