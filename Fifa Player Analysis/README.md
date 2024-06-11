@@ -20,13 +20,13 @@ The dataset was processed using Python programming language, leveraging librarie
 
 ### Sample Bar Chart
 
-![Bar Chart](images/sample_bar_chart.png)
+![Bar Chart](sample_bar_chart.png)
 
 The bar chart provides insights into the distribution of players across different positions.
 
 ### Sample Heatmap
 
-![Heatmap](images/sample_heatmap.png)
+![Heatmap](sample_heatmap.png)
 
 The heatmap visualizes correlations between different player attributes, providing valuable insights into player characteristics.
 
