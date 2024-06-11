@@ -2,7 +2,7 @@
 
 Welcome to Fishing Hotspot Detection, a team project aimed at helping fishermen discover optimal fishing spots near them!
 
-![Fishing Hotspot Detection](fisherman logo.jpg)
+![Fishing Hotspot Detection](fisherman%20logo.jpg)
 
 ## Table of Contents
 
