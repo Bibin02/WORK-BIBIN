@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fishermen Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="h-tag">
+            <h2>WELCOME TO FISHERMEN LOGIN</h2><br>
+        </div>
+
+        <div class="login">
+            <table cellspacing="2" cellpadding="8" border="0">
+                <tr>
+                    <td>Enter User Name </td>
+                    <td><input type="text" placeholder="Enter user name" id="email" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td>Enter Password </td>
+                    <td><input type="password" placeholder="Enter Password" id="pwd1" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="signup.html">
+                            <button>Signup</button>
+                        </a>
+                    </td>
+                    <td>
+                        <input type="submit" value="Login" class="btn" onClick="login()" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="hotspot.html">
+                            <button>Back</button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            var uname = document.getElementById("email").value;
+            var pwd = document.getElementById("pwd1").value;
+            if (uname == '') {
+                alert("Please enter user name.");
+            } else if (pwd == '') {
+                alert("Enter the password");
+            } else {
+                alert('Thank You for Login & You are Redirecting to fisherman database');
+                //Redirecting to other page or webste code or you can set your own html page.
+                window.location = "user.html";
+            }
+        }
+    </script>
+</body>
+</html>

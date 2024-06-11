@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <title>NEW FISHERMAN SIGNUP</title>
+  </head>
+
+  <body style="
+  margin-top: 100px;
+">
+        <script>
+            function register()
+	{
+		var uname = document.getElementById("email").value;
+		if(uname ==''|| document.getElementById("name").value=='' || document.getElementById("age").value=='' || 
+        document.getElementById("pwd1").value=='' || document.getElementById("pwd2").value=='' || document.getElementById("state").value=='' || document.getElementById("addr").value==''
+        || document.getElementById("cno").value=='')
+		{
+			alert("Please Enter all the Details.");
+        }
+		else{
+	        alert('Thank You for updating your fishing hotspot Have a nice day !');
+            window.location.href = "login.html";
+		}
+	}
+        </script>
+	<!-- Main div code -->
+	<div id="main">
+	<div class="h-tag">
+	<center><h2>SIGN UP</h2></center>
+	</div>
+	<!-- Login box -->
+	<div class="login">
+	<table cellspacing="2" align="center" cellpadding="8" border="0">
+        <tr>
+            <td>First Name :</td>
+            <td><input type="text" placeholder="Enter name" id="name" class="tb" /></td>
+            </tr>
+        <tr>
+                <td>Age :</td>
+                <td><input type="number" id="age" class="tb" /></td>
+        </tr>
+	<tr>
+	<td>Create User Name :</td>
+	<td><input type="text" placeholder="Enter user name" id="email" class="tb" /></td>
+	</tr>
+	<tr>
+        <td>Enter Password :</td>
+        <td><input type="password" placeholder="" id="pwd1" class="tb" /></td>
+    </tr>
+    <tr>
+        <td>Confirm Password :</td>
+        <td><input type="password" placeholder="" id="pwd2" class="tb" /></td>
+    </tr>
+	<tr>
+        <td>State :</td>
+        <td><input type="text" id="state" class="tb" /></td>
+        </tr>
+    <tr>
+        <td>Address :</td>
+        <td><input type="text" id="addr" class="tb" /></td>
+        </tr>
+    <tr>
+    <td>Contact number :</td>
+    <td><input type="number" id="cno" class="tb" /></td>
+    </tr>
+        
+    <td>
+	<input type="submit" value="register" class="btn" onClick="register()" /></td>
+	</tr>
+	</table>
+	</div>
+  	 <!-- login box div ending here.. -->
+	</div>
+	<!-- Main div ending here... -->
+    
+  </body>
+  </html>
+  
