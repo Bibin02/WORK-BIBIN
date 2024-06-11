@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <title>WEATHER PROFILE</title>
+    <style>
+      #map {
+        height: 600px;
+        width: 100%;
+      }
+    </style>
+    <style>
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #000000;
+        border-radius: 6px;
+        outline: none;
+      }
+      .button1 {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #000000;
+        background-color: #fd0000;
+        border-radius: 6px;
+        outline: none;
+      }
+      .button2 {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #000000;
+        background-color: #00fd00;
+        border-radius: 6px;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+    <!-- 
+     The `defer` attribute causes the callback to execute after the full HTML
+     document has been parsed. For non-blocking uses, avoiding race conditions,
+     and consistent behavior across browsers, consider loading using Promises
+     with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+    -->
+    
+    
+    
+
+<p id="demo"></p>
+<div id="demo1"></div>
+<div id="demo2"></div>
+
+        <script type="module" crossorigin>
+          
+	  
+	  function c() {
+	  var r,cln;
+	  var o;
+    var newpsn;
+	  navigator.geolocation.watchPosition(showPosition1);
+        function showPosition1(position) {
+          r = { lat: position.coords.latitude, lng: position.coords.longitude };
+          cln = { lat: 12.8793, lng: 80.2129 };
+         o = new google.maps.Map(document.getElementById("map"), {
+            zoom: 9,
+            center: cln,
+          }); 
+
+          var lat1=12.8793;        
+          var lng1=80.2129;
+
+          var wcnt=0,num=5000;
+          for (var i = lat1-2.100; i<=lat1+2.100; i=i+0.02) {
+            for(var j = lng1-0.11; j<=lng1+2.100; j=j+0.02){
+                newpsn = { lat: i, lng: j }; 
+                if(Math.floor(Math.random()*2)){
+                  var num=100;
+                }
+                if(!(Math.floor(Math.random()*num))){
+                    wcnt++;
+                    var markerarrow=new google.maps.Marker({ position: newpsn, map: o, icon: 'wind.png', 
+                    title:"Windspeed: "+Math.floor(Math.random()*(50-40)+40)+
+                    "\nTemperature: "+Math.floor(Math.random()*(25-20)+20)+" deg C"+
+                    "\nHumidity: "+Math.floor(Math.random()*(90-85)+85)+" %"});
+            }
+          
+          }
+          }
+          new google.maps.Marker({ position: cln, map: o, title:"Latitude: "+lat1+"  Longitude: "+lng1 });
+        
+        var status=document.getElementById('demo1')
+        var htspt=document.getElementById('demo2')
+          if(wcnt>20){
+            status.innerHTML='<CENTER><a class="button1">WEATHER STATUS</a> <p>As per weather reasons / Government restrictions, You are not supposed to go out for Fishing</p></CENTER>'
+          }
+          else{
+            htspt.innerHTML='<center><a class="button" href="hotspot.html">FIND HOTSPOTS</a></center>'
+            status.innerHTML='<CENTER><a class="button2">WEATHER STATUS</a></CENTER>'
+          }
+          }
+    }
+      window.initMap = c;
+    </script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script> 
+    
+  </body>
+</html>
