@@ -26,7 +26,7 @@ An enthusiastic, IT professional student with excellent communication, having th
 
 ### Data Analysis Projects
 - **Fifa Player Analysis**: This internship project provides Exploratory Data Analysis (EDA) of the FIFA players using python packages like Seaborn and matplotlib to visualize the performance of each player.
-- **Heart Disease Analysis**: Analysis of heart patients and finding patterns to predict a person might get a major heart disease like Heart attack, Stroke, etc.
+- **Heart Disease Analysis**: Analysis of heart patients and finding patterns to predict a person might get a major heart disease like Heart attack, Stroke, etc. [Notebook Link:](https://github.com/Bibin02/WORK-BIBIN/blob/main/Heart%20Disease%20Data%20Analysis/Heart_Disease_Analytics.html)
 - **Birds Strike Analysis**: Designed in Tableau for analysing the Birds stike in Aircrafts and their impact in Aviation industry as well as to the Environment.
 
 ## Contact Me
