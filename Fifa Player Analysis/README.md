@@ -29,12 +29,3 @@ The bar chart provides insights into the distribution of players across differen
 ![Heatmap](sample_heatmap.png)
 
 The heatmap visualizes correlations between different player attributes, providing valuable insights into player characteristics.
-
-## Getting Started
-
-To reproduce the analysis, follow these steps:
-
-1. Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/your_username/fifa-player-analysis.git
