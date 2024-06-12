@@ -10,29 +10,33 @@ An enthusiastic, IT professional student with excellent communication, having th
 - **Key Features**:
   - Maintain sterie environment during the surgery.
   - Can train more gestures using this effective CNN model.
-    
-- **Technologies Used**: Python, OpenCV, Deep Learning -> CNN,
-- **Demo**:
+- **Technologies Used**: Python, OpenCV, Deep Learning -> CNN, Flask.
+- **Demo**: [Link]()
 
 ### Fishing hotspot Detection
 - **Description**: This is my team project led by me for the fishermen, which I used in the Smart India Hackathon. The machine-learning algorithm deals with finding optimal fish spots in the sea with precise location with the help of satellite data to train it.
 - **Key Features**:
   - User Friendly Application.
   - Accuracy of Fishing spots were improved based on Satellite data.
- 
 - **Technologies Used**: Python, Decisition Trees (Gradient Boosting, XGBoost), Javascript, Google Maps API.
-- **Demo**: Available in figma and deployment website.
-- **Links**: 
+- **Demo**: Available in figma and deployment website. [link](https://www.figma.com/proto/cz5CD1Y64wnTuDH1acoYuB/kalasnikov?node-id=164-4&t=8b1noQrpjfGglxOW-0&scaling=scale-down&content-scaling=fixed&page-id=3%3A12&starting-point-node-id=37%3A8&show-proto-sidebar=1)
+- **Links**: [Link](https://github.com/Bibin02/WORK-BIBIN)
 
 ### Data Analysis Projects
-- **Fifa Player Analysis**: This internship project provides Exploratory Data Analysis (EDA) of the FIFA players using python packages like Seaborn and matplotlib to visualize the performance of each player.
-- **Heart Disease Analysis**: Analysis of heart patients and finding patterns to predict a person might get a major heart disease like Heart attack, Stroke, etc. [Notebook Link:](https://github.com/Bibin02/WORK-BIBIN/blob/main/Heart%20Disease%20Data%20Analysis/Heart_Disease_Analytics.html)
-- **Birds Strike Analysis**: Designed in Tableau for analysing the Birds stike in Aircrafts and their impact in Aviation industry as well as to the Environment.
+- **Fifa Player Analysis**: This internship project provides Exploratory Data Analysis (EDA) of the FIFA players using python packages like Seaborn and matplotlib to visualize the performance of each player. [Notebook link]()
+- **Heart Disease Analysis**: Analysis of heart patients and finding patterns to predict a person might get a major heart disease like Heart attack, Stroke, etc. [Notebook Link:](https://bibin02.github.io/WORK-BIBIN/Heart_Disease_Analytics.html)
+- **Birds Strike Analysis**: Designed in Tableau for analysing the Birds stike in Aircrafts and their impact in Aviation industry as well as to the Environment. [Link](https://public.tableau.com/app/profile/bibinus.de.bosco.c/viz/Birds_Strikes_Analytics/BirdsStrikeMain)
 
+### Library Management System
+- **Description**: A Java programming based application for the desktop using principles of
+software design and App development procedures. The project motive is to
+manage library work, and APIs are utilized to link the backend process to a
+MySQL database.
+- **Key Features**: 
 ## Contact Me
 - **Email**: ceolbosco@gmail.com
 - **LinkedIn**: [Link to LinkedIn profile.](https://www.linkedin.com/in/bibinus-de-bosco-c-a90600234)
-- **Personal Website/Blog**: 
+- **Personal Website/Blog**: [Portfolio Link.](https://bibin02.github.io/WORK-BIBIN/)
 - **Tableau**: [Link to Tableau Dashboard.](https://public.tableau.com/app/profile/bibinus.de.bosco.c)
 
 ## Outro
